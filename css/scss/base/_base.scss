@@ -1,0 +1,25 @@
+* {
+  @include box-sizing;
+}
+body {
+  font-family: $font-family-body;
+  font-size: 13px;
+  color: $color-a;
+}
+a {
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5 {
+  text-transform: uppercase;
+}
+li {
+  list-style: none;
+}
+button,a {
+  &:focus {
+    outline: none;
+  }
+}
+img {
+  max-width: 100%;
+}
